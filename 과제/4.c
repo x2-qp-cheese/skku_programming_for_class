@@ -7,7 +7,7 @@ int main()
     scanf("%ld", &n);
     int count=0, j=1;
     unsigned long number=n;
-    int N,array_num[N];
+    int array_num[20];
     
     
     while(number!=0)
@@ -37,4 +37,5 @@ int main()
     {
         printf("%c", array_num[count-i+1]);
     }
+    printf("\n");
 }

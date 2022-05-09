@@ -23,17 +23,17 @@ void solve_quadratic_equation(a,b,c)
         if (D==0)
         {
                 x=(-b)/(2*a);
-                printf("%.3f",x);
+                printf("x = %.3f\n",x);
         }
         else if(D>0)
         {
                 x1=(-b+sqrt(D))/(2*a);
                 x2=(-b-sqrt(D))/(2*a);
-                printf("x1 = %.3f, x2 = %.3f", x1, x2);
+                (x1>x2)?printf("x1 = %.3f, x2 = %.3f\n", x2, x1):printf("x1 = %.3f, x2 = %.3f\n", x1, x2);
         }
         else if(D<0)
         {
-                printf("No solution available!");
+                printf("No solution available!\n");
         }
 }
 

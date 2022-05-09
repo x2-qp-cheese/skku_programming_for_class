@@ -4,7 +4,7 @@ int main()
 {
     int x = 10;
     int y = (x++, ++x);
-    printf("%d", y);
+    printf("%d\n", y);
 
     x = 10;
     y = (++x, x++);
